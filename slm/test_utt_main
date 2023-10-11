@@ -1,0 +1,8 @@
+import unittest
+from utt_main import add_int
+
+class NamesTestCase(unittest.TestCase):
+ def test_add_int(self):
+     sum = add_int(6,5)
+     self.assertEqual(sum, 11)
+unittest.main()

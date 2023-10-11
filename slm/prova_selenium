@@ -1,0 +1,17 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+# global browser
+
+# browser = webdriver.Chrome()
+# browser.get('http://onet.pl')
+
+def launchBrowser():
+   
+   driver = webdriver.Chrome()
+   search = driver
+   driver.get("http://onet.pl")
+   while(True):
+       pass
+   
+launchBrowser()
+
